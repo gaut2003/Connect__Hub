@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 //change this to localhost link to set on your local environment
-const socket = io('https://sumit334-musical-funicular-jprp774rgpj2qwqg-5000.preview.app.github.dev/');
+const socket = io('https://localhost:5000/');
 
 const SocketContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
